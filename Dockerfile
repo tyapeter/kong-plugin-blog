@@ -1,7 +1,7 @@
 FROM ubuntu:bionic
 
 # Set the kong version to run
-ENV KONG_VERSION 1.4.3
+ENV KONG_VERSION 2.0.4
 
 # install the appropriate Kong version
 RUN apt-get update \
